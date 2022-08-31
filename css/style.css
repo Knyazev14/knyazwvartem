@@ -1441,7 +1441,7 @@ button.swiper-pagination-bullet {
 .social__img {
   border-radius: 10px;
   width: 31%;
-  height: 100%;
+  height: auto;
 }
 
 .social__img + .social__img {
