@@ -1445,6 +1445,14 @@ button.swiper-pagination-bullet {
   height: auto;
 }
 
+.social__img {
+  margin-left: 30px;
+}
+
+.social__img:first-child {
+  margin-left: 0;
+}
+
 .social-button-prev,
 .social-button-next {
   top: 50%;
@@ -1605,6 +1613,15 @@ button.swiper-pagination-bullet {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+
+  .social__img {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .social__img:first-child {
+    margin-top: 0px;
   }
 }
 
