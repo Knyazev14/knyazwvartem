@@ -1440,7 +1440,8 @@ button.swiper-pagination-bullet {
 
 .social__img {
   border-radius: 10px;
-  width: 31%;
+  max-width: 460px;
+  width: 100%;
   height: auto;
 }
 
@@ -1608,11 +1609,6 @@ button.swiper-pagination-bullet {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-
-  .social__img {
-    max-width: 460px;
-    width: 100%;
   }
 
   .social__img + .social__img {
