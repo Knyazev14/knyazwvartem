@@ -1479,7 +1479,7 @@ button.swiper-pagination-bullet {
           justify-content: space-between;
 }
 
-.social__slide.swiper-slide-active .social__content + .social__content {
+.social__content {
   margin-left: 30px;
 }
 
@@ -1673,7 +1673,7 @@ button.swiper-pagination-bullet {
             align-items: center;
   }
 
-  .social__slide.swiper-slide-active .social__content + .social__content {
+  .social__content {
     margin-left: 0px;
     margin-top: 30px;
   }
