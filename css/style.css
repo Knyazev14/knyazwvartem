@@ -1607,8 +1607,21 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 854px) {
+  body {
+    font-size: 14px;
+  }
+
   .container {
     max-width: 840px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .button {
+    padding: 17px 50px;
+    font-size: 14px;
   }
 
   .header__body {
@@ -1628,6 +1641,14 @@ button.swiper-pagination-bullet {
     width: 15px;
     height: 15px;
     background-size: cover;
+  }
+
+  .buyers__title {
+    padding-top: 100px;
+  }
+
+  .store {
+    padding-top: 100px;
   }
 
   .social__title {
@@ -1659,27 +1680,6 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 845px) {
-  body {
-    font-size: 14px;
-  }
-
-  .title {
-    font-size: 24px;
-  }
-
-  .button {
-    padding: 17px 50px;
-    font-size: 14px;
-  }
-
-  .buyers__title {
-    padding-top: 100px;
-  }
-
-  .store {
-    padding-top: 100px;
-  }
-
   .banner {
     padding-bottom: 70px;
   }
