@@ -553,12 +553,15 @@ body._lock {
           align-items: center;
 }
 
+.popup__block {
+  position: relative;
+}
+
 .popup__phone {
   border: 1px solid #CBCBCB;
   border-radius: 70px;
   padding: 26px 20px 26px 43px;
-  max-width: 433px;
-  width: 100%;
+  width: 433px;
   font-weight: 400;
   font-size: 20px;
   margin-bottom: 60px;
@@ -570,6 +573,27 @@ body._lock {
   scale: 1;
   width: 100%;
   height: 100%;
+}
+
+.format {
+  position: absolute;
+  bottom: 30px;
+  font-size: 14px;
+  color: #F10909;
+  left: 20px;
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.valid {
+  border: 1px solid green;
+}
+
+.invalid {
+  border: 1px solid #EF0101;
 }
 
 /**
@@ -1867,6 +1891,10 @@ button.swiper-pagination-bullet {
     padding: 16px 10px 16px 33px;
     margin-bottom: 40px;
   }
+
+  .format {
+    bottom: 15px;
+  }
 }
 
 @media (max-width: 1239px) {
@@ -2390,7 +2418,11 @@ button.swiper-pagination-bullet {
     margin-bottom: 30px;
     font-size: 16px;
     padding: 12px 10px 12px 20px;
-    max-width: 290px;
+    width: 270px;
+  }
+
+  .format {
+    font-size: 12px;
   }
 
   .banner {
