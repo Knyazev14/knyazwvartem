@@ -4,11 +4,15 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220903020929">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220903162010">
 	<title>Главная</title>
 </head>
 
 <body>
+	<div class="preloader">
+		<div class="loader"></div>
+		<span class="load-perc">0%</span>
+	</div>
 	<div class="wrapper">
 		<header class="header">
 	<div class="container">
@@ -244,7 +248,7 @@
 				<p class="popup__text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab"Lorem ipsum dolor sit amet, </p>
 				<form class="popup__form" id="form">
 					<div class="popup__block">
-						<input class="popup__phone" data-rules="tel" type="tel" placeholder="Телефон">
+						<input class="popup__phone tel req" type="tel" placeholder="Телефон">
 						<span class="format">Неверный формат</span>
 					</div>
 					<button class="popup__btn button">Отправить</button>
@@ -252,7 +256,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220903020929"></script>
+	<script src="js/app.min.js?_v=20220903162010"></script>
 </body>
 
 </html>
